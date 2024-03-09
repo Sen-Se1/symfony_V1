@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+{% block body %}
+	{% include "pages/nav.html.twig" %}
+	<div class="container">
+		<img src="{{ asset('img/download.jfif') }}">
+		<h1>built with ❤ By Houssem</h1>
+		<p>
+			<a href="{{ path('app_pages') }}">Home Page</a>
+		</p>
+	</div>
+	{% include "pages/footer.html.twig" %}
+{% endblock %}
